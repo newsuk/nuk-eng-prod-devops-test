@@ -1,5 +1,5 @@
 dependencies:
-	pip install -r requirements.txt --user
+	npm install
 
 run:
-	python server.py
+	npm run start
