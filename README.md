@@ -1,17 +1,15 @@
 # Technical Test for News UK Devops Engineers
 
-We want to deploy and check for a successful deployment of our `server.js` app. It needs to be
-deployed on the cloud platform of your choice, and must be easily ported to a different platform or tool.
+**Prerequisites**: IDE of your choice, Docker, Terraform
 
-Your job is to dockerize the server, write the necessary config to deploy the server and check that
-the correct version was deployed.
+We want to deploy our `server.js` app.
 
-We have included a `Makefile` to install the dependencies. This is not a test of your Javascript
-knowledge so you shouldn't need to edit the Javascript file. It will always spit out version `0.21.3`
-but your script should be re-usable.
+Your job is to dockerize the server. It will always spit out version `0.21.3`. Modify the application so there's a new path which could increment this verison.
+
+We have included a `Makefile` to install the dependencies.
 
 ## Expected Outcome
 
-You should deliver a Docker image, the necessary Terraform files, and the script (in whatever
-programming language you choose) to check that the correct version has been deployed. You should
-also include instructions on how we can run your pipeline.
+You should be able to open the application while running on Docker in your browser and have two working paths - one to increment the current version and one to return the current version of the application.
+
+_BONUS_: Get the version from a second container.
