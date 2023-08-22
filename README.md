@@ -18,4 +18,4 @@ You should deliver:
 - The necessary Terraform files
 - The script (in whatever programming language you choose) to check that the correct version has been deployed.
 
-You should be able to open the application in your browser and verify using the script that we are getting the correct version. You should also include instructions on how we can run your pipeline.
+You should be able to open the application while running locally on your Kubernetes in your browser and verify using the script that we are getting the correct version. You should also include instructions on how we can run your pipeline.
