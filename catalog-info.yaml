@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nuk-eng-prod-devops-test
+  description:
+  annotations:
+    circleci.com/project-slug: github/newsuk/nuk-eng-prod-devops-test
+    backstage.io/source-location: url:https://github.com/newsuk/nuk-eng-prod-devops-test/
+    github.com/team-slug: newsuk/nuk-eng-prod-devops-test
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/productivity-hub-metrics-enabled: 'true'
+  tags:
+    - bu:newsuk
+spec:
+  type: service
+  lifecycle: production
+  
